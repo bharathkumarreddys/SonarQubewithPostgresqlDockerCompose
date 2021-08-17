@@ -1,0 +1,35 @@
+root@ip-10-0-2-38:/home/ubuntu# history
+    1  sysctl -w vm.max_map_count=262144
+    2  sysctl -w fs.file-max=65536
+    3  ulimit -n 65536
+    4  ulimit -u 4096
+    5  sudo firewall-cmd --permanent --zone=public --add-port=9000/tcp
+    6  vi docker-compose.yml
+    7  docker-compose up -d
+    8  apt-get install docker-compose -y
+    9  apt-get install compose -y
+   10* apt install docker-compose -ydocker-compose up -d
+   11  apt-get update
+   12  clesr
+   13  clear
+   14  apt install docker-compose
+   15  clear
+   16  docker-compose up -d
+   17  docker --version
+   18  clear
+   19  docker ps
+   20  sudo firewall-cmd --permanent --zone=public --add-port=9000/tcp
+   21  --permanent --zone=public --add-port=9000/tcp 
+   22  history
+
+
+----
+sysctl -w vm.max_map_count=262144
+sysctl -w fs.file-max=65536
+ulimit -n 65536
+ulimit -u 4096
+
+For opening the port 9000:
+sudo firewall-cmd --permanent --zone=public --add-port=9000/tcp 
+sudo firewall-cmd --reload
+-----
